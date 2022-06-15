@@ -12,7 +12,7 @@
     * in order to turn it on, go to https://admin.lucidpreprod.app/features and search up the feature name
     * you can find the feature name typically by looking at the surrounding `*ngif`, asking a dev, or looking at the `i18n.json` key for the `aria label`
 * ** **take a screenshot of where to locate the fixed component and add it to your ticket** **
-* **delete the old component from the html file**
+* **delete the old component from the `.html` file**
 
 # Wrapping up a commit  ✔️
 * you  can *squash* commits together using `git rebase -i HEAD~<number of commits you need to squash>`, then replacing the **first** word of the commit with the message you don't want to keep to `fixup` 
